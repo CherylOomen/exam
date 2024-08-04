@@ -1,0 +1,81 @@
+[class*="col-"] {
+  width: 100%;
+
+}
+@media only screen and (min-width: 768px) {
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+    }
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+    .header {
+    background-color: chocolate;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: sienna;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+    .col-3{
+        background-color: sandybrown;
+        height: 1100px;
+    }
+    .col-9{
+        background-color: white;
+        width: auto;
+        
+    }
+    .col-12{
+        background-color: chocolate;
+        color: black;
+        text-align: center;
+    }
+    h2{
+      color: orange;
+    }
+    textarea{
+      height: 200px;
+      width: 700px;
+    }
+    button{
+      background-color: chocolate;
+      color: white;
+      width: 90px;
+      height: 50px;
+    }
+    input{
+      width: 100%;
+    }
+    select{
+      width: 100%;
+    }
+    
